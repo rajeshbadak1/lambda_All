@@ -43,4 +43,4 @@ def lambda_handler(event, context):
             producer.send('avalanche-data', value=messageData)
     
 
-lambda_handler("","")
+
